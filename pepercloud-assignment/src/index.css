@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.search {
+  height: 100vh;
+}
+.header {
+  background-color: #fbfbfb;
+  border-bottom: solid 1px #efefef;
+}
+.container {
+  padding: 15px 30px;
+}
+.header form {
+  display: flex;
+}
+.inputBox {
+ flex: 0 0 calc(100% - 100px);
+}
+.header .button {
+  flex: 0 0 100px;
+  background-color: #ff9900;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.header .button:hover {
+  background-color: #ffb648;
+}
+.inputBox input[type=text] {
+  background-color: #fff;
+  padding: 15px;
+  border: solid 1px #efefef;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.search-show {
+  padding: 30px;
+}
+.card {
+  background-color: #fdfdfd;
+  padding: 16px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.23);
+  margin-bottom: 20px;
+}
+.loadmore-button {
+  background-color: #444;
+  border: none;
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  display: block;
+}
+.card img {
+  border-radius: 50%;
+  float: left;
+  max-width: 48px;
+  height: auto;
+}
+.card-body {
+  margin-left: 65px;
+}
+.card-text {
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+.card-time {
+  font-size: 13px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.card-user a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ff9900;
+  text-decoration: none;
+}
+.card-user a:hover {
+  color: #000;
+}
